@@ -2,6 +2,11 @@
 .logoo{
     height: 150px;
 }
+.topnav{
+    background-color: #AB7442;
+    color: white;
+    border-bottom: 1px solid white;
+}
 :root {
     --primary: #AB7442;
     --light: #F5F5F5;
