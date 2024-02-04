@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 .logoo{
-    height: 150px;
+    height: 120px;
 }
 .topnav{
     background-color: #AB7442;
@@ -103,6 +103,8 @@
     font-weight: 500;
     text-transform: uppercase;
     outline: none;
+    background-color: white;
+
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -118,17 +120,24 @@
 
     .navbar-light .navbar-nav {
         border-top: 1px solid #EEEEEE;
+    background-color: white;
+
     }
 }
 
 .navbar-light .navbar-brand,
 .navbar-light a.btn {
-    height: 75px;
+    height: 130px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: var(--dark);
     font-weight: 500;
+    background-color: white;
+
 }
 
 .navbar-light.sticky-top {
@@ -629,4 +638,11 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}
+
+.vd{
+    width: 100%;
+}
+.navbar{
+    height: 130px;
 }
